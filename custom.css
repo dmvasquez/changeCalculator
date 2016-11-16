@@ -1,0 +1,36 @@
+.topMargin {
+    margin-top: 5em;
+}
+
+.divOpacity {
+    background: rgba(60, 60, 60, 0.5);
+    padding: 10px;
+    margin: 8em;
+}
+
+.div-z-index {
+    z-index: 2;
+}
+
+* {
+                margin: 0;
+                padding: 0;
+            }
+
+.background-wrap {
+                position: fixed;
+                z-index: 1;
+                overflow: hidden;
+                top: -100%;
+                left: -50%;
+                width: 275%;
+                height: 275%;
+            }
+            
+            #video-bg-elem {
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-height: 100%;
+                min-width: 100%;
+            }

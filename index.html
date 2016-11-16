@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type="text/css" href="bulma.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+
+<body>
+<div class="background-wrap">
+			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"> 
+				<source src="Going-Places.mp4" type="video/mp4">
+				Video not supported
+			</video>          
+		</div>
+
+    <section class="hero is-success is-fullheight">
+        <!-- Hero header: will stick at the top -->
+        <div class="hero-head">
+            <header class="nav">
+                <div class="container">
+                    <div class="nav-left">
+                        <a class="nav-item">
+                            <img src="dollarImage.png" class="icon is-large" alt="Logo">
+                        </a>
+                    </div>
+                    <span class="nav-toggle">
+		          			<span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item is-active">
+		            					Home
+		          					</a>
+                        <a class="nav-item">
+		            					How It Works
+		          					</a>
+                        <a class="nav-item">
+		            					Contact Us
+		          					</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body div-z-index">
+            <div class="container has-text-centered divOpacity opacity">
+                <h1 class="title">
+        					Change Calculator
+      					</h1>
+                <h2 class="subtitle">
+        					A project by David Vasquez
+      					</h2>
+                <div>
+                    <form id="inputForm" class="control">
+                        <label>Total Sale Amount</label>
+                        <p class="control">
+                            <input id="inputFormOne" class="input" type="text" placeholder="Cost of Item">
+                        </p>
+                        <label>Total Amount Tendered</label>
+                        <p>
+                            <input id="inputFormTwo" class="input" type="text" name="" placeholder="Amount Received">
+                        </p>
+                        <div class="is-half is-offset-one-quarter has-text-centered topMargin">
+                            <button class="button is-success is-inverted">Calculate Change</button>
+                        </div>
+                    </form>
+                     <div>
+	                        <p id="output" class=""></p>
+	                        <p id="fifty"></p>
+	                        <p id="twenty"></p>
+	                        <p id="tens"></p>
+	                        <p id="fives"></p>
+	                        <P id="dollar"></p>
+	                        <p id="quarter"></p>
+	                        <p id="dime"></p>
+	                        <p id="nickel"></p>
+	                        <p id="penny"></p>
+                     </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot div-z-index">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li><a>Important Copyright Information</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
